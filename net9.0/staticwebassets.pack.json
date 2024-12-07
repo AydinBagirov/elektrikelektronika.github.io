@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Logo\\ndulogo.png",
+      "PackagePath": "staticwebassets\\Pictures\\Logo\\ndulogo.png"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\IMG_9350.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\IMG_9350.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\IMG_9351.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\IMG_9351.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\IMG_9352.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\IMG_9352.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\IMG_9353.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\IMG_9353.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\IMG_9354.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\IMG_9354.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\arduino.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\arduino.jpg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\bluetooth.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\bluetooth.jpg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\display.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\display.jpg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\nebz.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\nebz.jpg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\photo1.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\photo1.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\photo2.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\photo2.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\photo3.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\photo3.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\photo4.jpeg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\photo4.jpeg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\Pictures\\Qrup\\temperatur.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Qrup\\temperatur.jpg"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\ElektronikaWeb\\ElektronikaWebLayihe\\ElektronikaWebLayihe\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ElektronikaWebLayihe.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ElektronikaWebLayihe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ElektronikaWebLayihe.props",
+      "PackagePath": "build\\ElektronikaWebLayihe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ElektronikaWebLayihe.props",
+      "PackagePath": "buildMultiTargeting\\ElektronikaWebLayihe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ElektronikaWebLayihe.props",
+      "PackagePath": "buildTransitive\\ElektronikaWebLayihe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
