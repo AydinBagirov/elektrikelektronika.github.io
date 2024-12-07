@@ -1,0 +1,118 @@
+﻿@{
+    Layout = "_MainLayout";
+}
+
+<h1>Kardioqrafiya Aparatı</h1>
+
+
+<div>
+    
+    <h3>Bu layihədə Arduino istifadə edərək sağlamlıq monitorinqi sistemi hazırlanmışdır.
+        Sistem insanın nəbzini ölçmək və bədən istiliyinə nəzarət etmək üçün nəzərdə tutulub. 
+        Bundan əlavə, məlumatların ani görüntülənməsi üçün kiçik ekran və məlumatların simsiz
+        ötürülməsi üçün Bluetooth modulu da layihəyə inteqrasiya olunub.</h3>
+    <h4>İstifadə olunan Hissələr:</h4>
+    <ol>
+        <li><h5>Arduino - Layihəni idarə etmək üçün mikro nəzarətçi.</h5></li>
+        <img src="Pictures/Qrup/arduino.jpg" alt="Resim 2" style="width: 200px; height: 200px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">    
+        <li><h5>Nəbz sensoru - Pulse Sensor - İnsanın nəbzini ölçmək üçün.</h5></li>
+        <img src="Pictures/Qrup/nebz.jpg" alt="Resim 2" style="width: 200px; height: 200px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <li><h5>Temperatur Sensoru (Məsələn, DS18B20 və ya LM35): Bədən istiliyini ölçmək üçün.</h5></li>
+        <img src="Pictures/Qrup/temperatur.jpg" alt="Resim 2" style="width: 200px; height: 200px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <li><h5>Bluetooth Modulu (HC-05 və ya HC-06): Məlumatı mobil proqrama və ya kompüterə simsiz göndərmək üçün.</h5></li>
+        <img src="Pictures/Qrup/bluetooth.jpg" alt="Resim 2" style="width: 200px; height: 200px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <li><h5>OLED Displey (128x64 və ya 16x2 LCD): Ölçülmüş nəbz və temperatur dəyərlərini göstərmək üçün.</h5></li>
+        <img src="Pictures/Qrup/display.jpg" alt="Resim 2" style="width: 200px; height: 200px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+        <li><h5>Enerji təchizatı və ya batareya: Sistemi işlətmək üçün enerji mənbəyi.</h5></li>
+        <li><h5>Qoşulma kabelləri və rezistorlar: dövrə əlaqələri üçün.</h5></li>
+    </ol>
+    <br/>
+    <h3>Layihənin İş Prinsipi</h3>
+    <ol>
+        <li><h5>Nəbz Ölçüsü: Nəbz sensoru dəri vasitəsilə ürək döyüntülərini aşkarlayır və Arduino-ya siqnal göndərir. Arduino bu siqnalları emal edir və BPM (Beats Per Minute) hesablayır.</h5></li>
+        <li><h5>Temperaturun ölçülməsi: Temperatur sensoru insanın bədən istiliyini təyin edir və onu analoq/rəqəmsal siqnal kimi Arduino-ya ötürür. Arduino sensordan alınan məlumatları emal edir və temperaturu Selsi (°C) ilə hesablayır.</h5></li>
+        <li><h5>Ekranda göstərin: Ölçülmüş nəbz və temperatur dəyərləri dərhal OLED və ya LCD ekranda istifadəçiyə göstərilir.</h5></li>
+        <li><h5>Bluetooth vasitəsilə məlumatların göndərilməsi: Bluetooth modulundan istifadə edərək ölçülmüş məlumatlar simsiz olaraq mobil proqrama və ya kompüterə ötürülür. Bu, uzunmüddətli məlumatların izlənməsi üçün istifadə edilə bilər.</h5></li>
+    </ol>
+    <img src="Pictures/Qrup/photo4.jpeg" alt="Resim 2" style="width: 550px; height: 450px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <br/>
+    <h3>Dövrə diaqramı</h3>
+    <img src="Pictures/Qrup/photo2.jpeg" alt="Resim 1" style="width: 550px; height: 450px; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <ul>
+        <li><h5>Pulse sensoru Arduino-nun analoq girişlərindən birinə bağlıdır (məsələn, A0).</h5></li>
+        <li><h5>Temperatur sensoru başqa bir analoq girişə bağlıdır (məsələn, A1).</h5></li>
+        <li><h5>Bluetooth modulu Arduino-nun RX və TX pinlərinə qoşulur.</h5></li>
+        <li><h5>OLED displeyi I2C protokolu vasitəsilə SDA və SCL pinlərinə qoşulur.</h5></li>
+    </ul>
+    <br/>
+</div>      
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino Code Display</title>
+</head>
+<body style="background-color: #f4f4f4; color: #333; font-family: Arial, sans-serif; margin: 0; padding: 20px;">
+
+    <h1 style="color: #444; font-size: 24px; text-align: center;">Arduino C++ Kodları</h1>
+
+    <div style="background-color: #1e1e1e; color: white; font-family: 'Courier New', Courier, monospace; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); margin: 20px auto; max-width: 800px;">
+        <pre style="background-color: #252526; padding: 20px; border-radius: 10px; overflow-x: auto; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3); color: #d4d4d4; font-size: 14px;">
+<span style="color: #569cd6;">#include</span> &lt;Wire.h&gt;
+<span style="color: #569cd6;">#include</span> &lt;Adafruit_SSD1306.h&gt;
+
+<span style="color: #569cd6;">#define</span> SCREEN_WIDTH 128
+<span style="color: #569cd6;">#define</span> SCREEN_HEIGHT 64
+
+Adafruit_SSD1306 <span style="color: #9cdcfe;">display</span>(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+
+<span style="color: #6a9955;"></span>
+<span style="color: #569cd6;">const int</span> pulsePin = A0;
+<span style="color: #569cd6;">const int</span> tempPin = A1;
+
+<span style="color: #569cd6;">void</span> <span style="color: #dcdcaa;">setup</span>() {
+    Serial.<span style="color: #dcdcaa;">begin</span>(9600);
+    <span style="color: #dcdcaa;">pinMode</span>(pulsePin, INPUT);
+    <span style="color: #dcdcaa;">pinMode</span>(tempPin, INPUT);
+
+    <span style="color: #6a9955;"></span>
+    <span style="color: #569cd6;">if</span> (!<span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">begin</span>(SSD1306_I2C_ADDRESS, 0x3C)) {
+        Serial.<span style="color: #dcdcaa;">println</span>(<span style="color: #ce9178;">"Ekran tapılmadı!"</span>);
+        <span style="color: #569cd6;">for</span> (;;);
+    }
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">clearDisplay</span>();
+}
+
+<span style="color: #569cd6;">void</span> <span style="color: #dcdcaa;">loop</span>() {
+    <span style="color: #569cd6;">int</span> pulseValue = <span style="color: #dcdcaa;">analogRead</span>(pulsePin);
+    <span style="color: #569cd6;">int</span> tempValue = <span style="color: #dcdcaa;">analogRead</span>(tempPin);
+
+    <span style="color: #6a9955;"></span>
+    <span style="color: #569cd6;">int</span> bpm = <span style="color: #dcdcaa;">map</span>(pulseValue, 0, 1023, 60, 100);
+    <span style="color: #569cd6;">float</span> temperature = (tempValue * 5.0 / 1023.0) * 100.0;
+
+    <span style="color: #6a9955;"></span>
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">clearDisplay</span>();
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">setTextSize</span>(1);
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">setTextColor</span>(SSD1306_WHITE);
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">setCursor</span>(0, 0);
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">print</span>(<span style="color: #ce9178;">"Nebiz: "</span>);
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">println</span>(bpm);
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">print</span>(<span style="color: #ce9178;">"Temperatur: "</span>);
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">print</span>(temperature);
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">println</span>(<span style="color: #ce9178;">" C"</span>);
+    <span style="color: #9cdcfe;">display</span>.<span style="color: #dcdcaa;">display</span>();
+
+    <span style="color: #6a9955;"></span>
+    Serial.<span style="color: #dcdcaa;">print</span>(<span style="color: #ce9178;">"Nebiz: "</span>);
+    Serial.<span style="color: #dcdcaa;">print</span>(bpm);
+    Serial.<span style="color: #dcdcaa;">print</span>(<span style="color: #ce9178;">", Temperatur: "</span>);
+    Serial.<span style="color: #dcdcaa;">println</span>(temperature);
+
+    <span style="color: #dcdcaa;">delay</span>(1000);
+}
+        </pre>
+    </div>
+</body>
+</html>

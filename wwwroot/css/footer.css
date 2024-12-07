@@ -1,0 +1,43 @@
+﻿footer {
+    background-color: #000000;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+}
+
+.footer-content p {
+    margin: 10px 0 20px;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socials li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom a {
+    color: #000000;
+    text-decoration: none;
+}

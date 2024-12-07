@@ -1,0 +1,121 @@
+﻿@{
+    Layout = "_MainLayout";
+}
+
+<head>
+    <style>
+        /* Genel sayfa düzeni */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: #fff;
+        }
+
+        /* Slider kapsayıcı */
+        .slider {
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto; /* Slider'ı ortalamak için */
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        /* Slaytlar kapsayıcı */
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        /* Tek slayt */
+        .slide {
+            flex-shrink: 0;
+            width: 100%; /* Slider'ın genişliğine eşit */
+        }
+
+        .slide img {
+            width: 100%; /* Resim genişliği kapsayıcıya eşit */
+            height: auto; /* Resim oranını korur */
+            display: block;
+        }
+
+        /* Önceki ve sonraki butonlar */
+        .slider .prev, .slider .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 10;
+            border-radius: 50%;
+        }
+
+        .slider .prev {
+            left: 10px;
+        }
+
+        .slider .next {
+            right: 10px;
+        }
+
+        .slider .prev:hover, .slider .next:hover {
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+<div class="slider">
+    <div class="slides">
+        <div class="slide"><img src="Pictures/Qrup/photo1.jpeg" alt="Resim 1"></div>
+        <div class="slide"><img src="Pictures/Qrup/IMG_9354.jpeg" alt="Resim 2"></div>
+        <div class="slide"><img src="Pictures/Qrup/IMG_9350.jpeg" alt="Resim 3"></div>
+        <div class="slide"><img src="Pictures/Qrup/IMG_9351.jpeg" alt="Resim 4"></div>
+        <div class="slide"><img src="Pictures/Qrup/IMG_9352.jpeg" alt="Resim 5"></div>
+        <div class="slide"><img src="Pictures/Qrup/IMG_9353.jpeg" alt="Resim 6"></div>
+    </div>
+    <button class="prev"><i class="fas fa-chevron-left"></i><</button>
+    <button class="next"><i class="fas fa-chevron-right"></i>></button>
+</div>
+
+<script>
+    const slides = document.querySelector('.slides');
+    const slide = document.querySelectorAll('.slide');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+
+    let currentIndex = 0;
+    const totalSlides = slide.length;
+
+    function showSlide(index) {
+        slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        showSlide(currentIndex);
+    }
+
+    nextButton.addEventListener('click', nextSlide);
+    prevButton.addEventListener('click', prevSlide);
+
+    // Otomatik geçiş
+    setInterval(nextSlide, 3000);
+</script>
+</body>
